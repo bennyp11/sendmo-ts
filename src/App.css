@@ -1,4 +1,48 @@
 .state-holder {
     border: 3px solid orange;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.state-holder div {
+    margin-top: 3vh;
+}
+
+:root {
+    --toastify-toast-max-height: 100px;
+    --toastify-toast-width: 400px;
+}
+
+.phone-container {
+    width: 200px;
+}
+
+.amount-container {
+    width: 200px;
+}
+
+.note-container {
+    width: 200px;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+h4 {
+    margin-bottom: 10vh;
+}
+
+.qr-note h4 {
+    margin-top: 5vh;
 }
